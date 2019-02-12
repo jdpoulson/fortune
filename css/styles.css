@@ -1,0 +1,9 @@
+#unlucky-fortune {
+  display: none;
+  color: red;
+}
+
+#lucky-fortune {
+  display: none;
+  color: green;
+}

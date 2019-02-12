@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Fortune</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/scripts.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="jumbotron">
+        <h2>Fortune</h2>
+      </div>
+      <form id="fortune_teller">
+        <div class="form-group">
+          <p>I have done some unlucky events in the last month:</p>
+          <input type="checkbox" name="unlucky" value="black-cat">Seeing a black cat.<br>
+          <input type="checkbox" name="unlucky" value="ladder">Walking under a ladder.<br>
+          <input type="checkbox" name="unlucky" value="toe-stub">Stubbing your toe.<br>
+          <input type="checkbox" name="unlucky" value="hate-letter">giving someone a hate letter.<br>
+          <input type="checkbox" name="unlucky" value="gambling">losing money.<br>
+          <input type="checkbox" name="unlucky" value="hunting">using guns.<br>
+        </div>
+        <div class="form-group">
+          <p>I have done some lucky events in the last month:</p>
+          <input type="checkbox" name="lucky" value="clover">Finding a four-leaf clover.<br>
+          <input type="checkbox" name="lucky" value="rainbow">Seeing a rainbow.<br>
+          <input type="checkbox" name="lucky" value="money">Finding some money.<br>
+          <input type="checkbox" name="lucky" value="valentines-card">Giving a girlfriend of yours a valentines day card.<br>
+          <input type="checkbox" name="lucky" value="skiing">skiing in the snow.<br>
+          <input type="checkbox" name="lucky" value="horseback-riding">Riding a horse.<br>
+        </div>
+        <button type="submit">Provide Fortune</button>
+      </form>
+      <div id="unlucky-fortune">
+        <p>-Your fortune is unlucky</p>
+      </div>
+      <div id="lucky-fortune">
+        <p>-Your fortune is lucky</p>
+      </div>
+    </div>
+  </body>
+</html>
