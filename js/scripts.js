@@ -13,10 +13,17 @@ $(document).ready(function(){
     if((unlucky >= 4) && (lucky <= 3)) {
       $("#unlucky-fortune").show();
       $("#lucky-fortune").hide();
+      $("#even-fortune").hide();
     };
     if((lucky >= 4) && (unlucky <= 3)) {
       $("#lucky-fortune").show();
       $("#unlucky-fortune").hide();
+      $("#even-fortune").hide();
+    };
+    if((lucky = 1) && (unlucky = 1)) {
+      $("#lucky-fortune").hide();
+      $("#unlucky-fortune").hide();
+      $("#even-fortune").show();
     };
   });
-})
+});
